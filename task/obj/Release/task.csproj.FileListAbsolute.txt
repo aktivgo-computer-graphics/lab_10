@@ -8,3 +8,4 @@ C:\Study\computer_graphics\lab_10\task\obj\Release\task.csproj.GenerateResource.
 C:\Study\computer_graphics\lab_10\task\obj\Release\task.csproj.CoreCompileInputs.cache
 C:\Study\computer_graphics\lab_10\task\obj\Release\task.exe
 C:\Study\computer_graphics\lab_10\task\obj\Release\task.pdb
+C:\Study\computer_graphics\lab_10\task\obj\Release\task.MainForm.resources
