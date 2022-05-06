@@ -1,0 +1,10 @@
+C:\Study\computer_graphics\lab_10\task\bin\Release\task.exe.config
+C:\Study\computer_graphics\lab_10\task\bin\Release\task.exe
+C:\Study\computer_graphics\lab_10\task\bin\Release\task.pdb
+C:\Study\computer_graphics\lab_10\task\obj\Release\task.csproj.AssemblyReference.cache
+C:\Study\computer_graphics\lab_10\task\obj\Release\task.csproj.SuggestedBindingRedirects.cache
+C:\Study\computer_graphics\lab_10\task\obj\Release\task.Properties.Resources.resources
+C:\Study\computer_graphics\lab_10\task\obj\Release\task.csproj.GenerateResource.cache
+C:\Study\computer_graphics\lab_10\task\obj\Release\task.csproj.CoreCompileInputs.cache
+C:\Study\computer_graphics\lab_10\task\obj\Release\task.exe
+C:\Study\computer_graphics\lab_10\task\obj\Release\task.pdb
