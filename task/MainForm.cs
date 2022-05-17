@@ -10,39 +10,41 @@ namespace task
     public partial class MainForm : Form
     {
         private Pen MyPen;
-
-        private int task = -1;
-
         private Bitmap bmp;
-
         private Graphics graph;
-        
+
         public MainForm()
         {
             InitializeComponent();
             MyPen = new Pen(Color.Black);
+            bmp = new Bitmap(ClientSize.Width, ClientSize.Height);
+            graph = Graphics.FromImage(bmp);
+            graph.SmoothingMode = SmoothingMode.HighQuality;
         }
         
         private void button1_Click(object sender, EventArgs e)
         {
-            graph = CreateGraphics();
-            bmp = new Bitmap(ClientSize.Width, ClientSize.Height);
+            graph = Graphics.FromImage(bmp);
             graph.Clear(Color.White);
             Waves(1000);
         }
         
         private void button2_Click(object sender, EventArgs e)
         {
-            graph = CreateGraphics();
-            bmp = new Bitmap(ClientSize.Width, ClientSize.Height);
+            graph = Graphics.FromImage(bmp);
+            graph.Clear(Color.White);
+            Roys(500);
+        }
+        
+        private void button3_Click(object sender, EventArgs e)
+        {
+            graph = Graphics.FromImage(bmp);
             graph.Clear(Color.White);
             Roys(500);
         }
 
         private void Waves(int n)
         {
-            graph.SmoothingMode = SmoothingMode.HighQuality;
-            
             Random rand = new Random();
             List<int> X = new List<int>();
             List<int> Y = new List<int>();
@@ -112,7 +114,6 @@ namespace task
 
         private void Roys(int n)
         {
-            graph.SmoothingMode = SmoothingMode.HighQuality;
             
             Random rand = new Random();
             List<int> X = new List<int>();
@@ -183,6 +184,8 @@ namespace task
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             MyPen.Dispose();
+            bmp.Dispose();
+            graph.Dispose();
         }
     }
 }

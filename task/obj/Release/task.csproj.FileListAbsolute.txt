@@ -9,3 +9,14 @@ C:\Study\computer_graphics\lab_10\task\obj\Release\task.csproj.CoreCompileInputs
 C:\Study\computer_graphics\lab_10\task\obj\Release\task.exe
 C:\Study\computer_graphics\lab_10\task\obj\Release\task.pdb
 C:\Study\computer_graphics\lab_10\task\obj\Release\task.MainForm.resources
+D:\Study\term_6\computer_graphics\lab_10\task\bin\Release\task.exe.config
+D:\Study\term_6\computer_graphics\lab_10\task\bin\Release\task.exe
+D:\Study\term_6\computer_graphics\lab_10\task\bin\Release\task.pdb
+D:\Study\term_6\computer_graphics\lab_10\task\obj\Release\task.csproj.AssemblyReference.cache
+D:\Study\term_6\computer_graphics\lab_10\task\obj\Release\task.csproj.SuggestedBindingRedirects.cache
+D:\Study\term_6\computer_graphics\lab_10\task\obj\Release\task.MainForm.resources
+D:\Study\term_6\computer_graphics\lab_10\task\obj\Release\task.Properties.Resources.resources
+D:\Study\term_6\computer_graphics\lab_10\task\obj\Release\task.csproj.GenerateResource.cache
+D:\Study\term_6\computer_graphics\lab_10\task\obj\Release\task.csproj.CoreCompileInputs.cache
+D:\Study\term_6\computer_graphics\lab_10\task\obj\Release\task.exe
+D:\Study\term_6\computer_graphics\lab_10\task\obj\Release\task.pdb
